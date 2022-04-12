@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "nodemon index.js"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "index.js"
+    ],
+    "ext": "js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "ejs-mate": "^3.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10",
+    "open": "^8.4.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.1.2"
+  }
+}
